@@ -1,0 +1,38 @@
+.instructions{
+    border: 1px solid darken(white, 30%);
+    border-radius: 5px;
+    margin-top: $lg;
+    margin-bottom: $lg;
+    padding:  $sm $lg;
+
+
+    h1{
+        color: red;
+        font-size: $lg;
+        text-align: center;
+    }
+
+    .browser-default{
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    
+    }
+
+    img{
+        width: 60%;
+        height: 80%;
+        margin-top: 20px;
+    }
+
+    .image-class{
+        text-align: center;
+    }
+}
+
+@media(max-width: $md-breakpoint){
+    .instructions img{
+        width: 100%; 
+        height: 150%; 
+    }
+}

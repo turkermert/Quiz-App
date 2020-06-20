@@ -1,0 +1,99 @@
+.questions {
+    background-color: whitesmoke;
+    border-left: 5px solid blue;
+    width: 80%;
+    margin: $lg auto 0 auto;
+    padding: $sm $md;
+
+    h2{
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .lifeline-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lifeline {
+        position: relative;
+        top: -3px;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        margin-bottom: $lg;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .options-container{
+        display: inline-block;
+        width: 50%;
+    }
+
+    .option{
+        background-color: cadetblue;
+        border-radius: $button-radius;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        margin: $md auto;
+        padding: $normal;
+        transition: 0.3s linear all;
+        width: 65%;
+    }
+
+    .option:hover{
+        background-color: darken(cadetblue, 20%);
+    }
+
+    .hintImage{
+        cursor: pointer;
+       
+    }
+    
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto $sm auto;
+    padding: $md;
+    width: 80%;
+}
+
+.bottom-container button{
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-right: $md;
+    padding: $xs $sm;
+}
+
+.bottom-container button:first-child{
+    background-color: grey;
+    transition: 0.2s linear all;
+}
+
+.bottom-container button:first-child:hover{
+    background-color: darken( grey, 20%);
+}
+
+.bottom-container button:nth-child(2){
+    background-color: rgb(35, 182, 35);
+    transition: 0.2s linear all;
+}
+
+.bottom-container button:nth-child(2):hover{
+    background-color: darken( rgb(35, 182, 35), 10%);
+}
+
+.bottom-container button:nth-child(3){
+    background-color: rgb(202, 39, 39);
+    transition: 0.2s linear all;
+}
+
+.bottom-container button:nth-child(3):hover{
+    background-color: darken(rgb(202, 39, 39), 10%);
+}

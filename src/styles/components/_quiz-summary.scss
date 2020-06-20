@@ -1,0 +1,76 @@
+
+h1{
+    text-align: center;
+}
+
+
+.tick-img{
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(226, 224, 224, 0.7);
+    height: 70%;
+    width: 45%;
+    padding-left: $lg;
+    padding-right: $lg;
+    border-radius: 5px;
+}
+
+section {
+    height: 60%;
+    width: 35%;
+    padding-left: $lg;
+    padding-right: $lg;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+h4{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.end-buttons{
+  text-align: center;
+}
+
+a.back-home{
+    cursor: pointer;
+    background-color: rgba(226, 224, 224, 0.7);
+    transition: 0.3s linear all;
+    width: 150px;
+    padding: 20px;
+    padding-left: $lg;
+    padding-right: $lg;
+    border-radius: 10px;
+    text-align: center;
+    margin-left:5em;
+}
+
+a.back-home:hover{
+    background-color: rgb(212, 208, 208);
+}
+
+a.play-again{
+    cursor: pointer;
+    background-color: rgba(226, 224, 224, 0.7);
+    transition: 0.3s linear all;
+    width: 150px;
+    padding: 20px;
+    padding-left: $lg;
+    padding-right: $lg;
+    border-radius: 10px;
+    text-align: center;
+    margin-left:5em;
+    
+}
+
+a.play-again:hover{
+    background-color: rgb(212, 208, 208);
+}

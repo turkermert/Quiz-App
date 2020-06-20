@@ -1,0 +1,78 @@
+#home {
+    background-image: url('../../assets/img/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 98vh;
+    width: 206vh;
+
+
+    section {
+        background-color: rgba(150, 142, 142, 0.7);
+        height: 60%;
+        width: 35%;
+        padding-left: $lg;
+        padding-right: $lg;
+        border-radius: 5px;
+        
+    }
+
+    h1 {
+        text-align: center;
+        color: whitesmoke;
+        font-size: $lg;
+        font-weight: 600;
+    }
+    
+    .play-button-container{
+        width: 98%;
+    }
+
+    a.play-button{
+        background-color: rgb(41, 175, 41);
+        color: whitesmoke;
+        cursor: pointer;
+        padding: $normal;
+        display: block;
+        border-radius: $button-radius;
+        text-align: center;
+        transition: 0.3s linear all;
+        font-weight: bold;
+    }
+
+    a.play-button:hover{
+        background-color: seagreen;
+    }
+
+    .auth-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-top: $lg;
+    }
+}
+
+.auth-container .auth-buttons {
+    color: whitesmoke;
+    padding: $normal 0;
+    text-align: center;
+    width: 45%;
+    border-radius: $button-radius;
+    transition: 0.3s linear all;
+}
+
+
+
+.cube{
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    #home section{
+        padding: 0 $normal;
+        width: 100%;
+        height: 100%;
+    }
+}
